@@ -1,0 +1,119 @@
+body
+{
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+color: #333;
+}
+.container
+{
+background-color: #ffffff;
+padding: 20px;
+border-radius: 12px;
+-webkit-border-radius: 12px;
+-moz-border-radius: 12px;
+-ms-border-radius: 12px;
+-o-border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+width: 90%;
+max-width: 400px;
+}
+h1
+{
+color: #444;
+margin-bottom: 20px;
+text-align: center;
+}
+.balance h2
+{
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+#totalBalance
+{
+font-size: 24px;
+font-weight: bold;
+}
+.summary
+{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.income, .expense
+{
+text-align: center;
+}
+.income h3, .expense,h3
+{
+font-size: 16px;
+margin-bottom: 5px;
+}
+#totalIncome
+{
+color: #28a745;
+font-weight: bold;
+}
+#totalExpense
+{
+color: #dc3545;
+font-weight: bold;
+}
+form
+{
+margin-bottom: 20px;
+}
+input[type="txt"], input[type="number"]
+{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid#ddd;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 14px;
+}
+.radio-buttons
+{
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+}
+button
+{
+width: 100%;
+}
+button
+{
+width: 100%;
+padding: 10px;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 6px;
+-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover
+{
+background-color: #218838;
+}
+#transactionList
+{
+list-style-type: none;
+padding: 0;
+}
